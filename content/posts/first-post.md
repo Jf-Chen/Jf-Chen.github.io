@@ -5,4 +5,8 @@ title = 'First Post'
 
 +++
 
-测试
+## Introduction
+
+This is **bold** text, and this is *emphasized* text.
+
+Visit the [Hugo](https://gohugo.io) website!
