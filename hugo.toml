@@ -1,0 +1,4 @@
+baseURL = 'https://jf-chen.github.io/'
+languageCode = 'zh-cn'
+title = 'My New Hugo Site'
+theme = "hugo-theme-stack"

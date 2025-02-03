@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://gitcode.com/gh_mirrors/hu/hugo-theme-stack
