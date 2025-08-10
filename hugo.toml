@@ -5,7 +5,12 @@ theme = "hugo-theme-stack"
 
 # 发布目录设置为 `docs`（GitHub Pages 支持从 `docs` 目录部署）
 publishDir = "docs"
-	
+
+
+[module]
+  [[module.imports]]
+    path = "github.com/CaiJimmy/hugo-theme-stack"
+
 [menu]
   [[menu.main]]
     name = "首页"
