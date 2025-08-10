@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "78ef0b17ebe78827",
+    "type": "split",
+    "children": [
+      {
+        "id": "df1e1762beb949c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c89a3edda95be42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hugo+github page+CDN加速，如何搭建个人博客网站.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ad54e0e11ac46608",
+    "type": "split",
+    "children": [
+      {
+        "id": "0474c31cad5c950f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d4ba2fdcc4b81b3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "41e6d35ae35dceb9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "53faefa89380ed39",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "de185f5dd4796355",
+    "type": "split",
+    "children": [
+      {
+        "id": "09c5a4cc4b0d6ed9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "834dc7eced95a9bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "hugo+github page+CDN加速，如何搭建个人博客网站.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2da853534a6713e4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "hugo+github page+CDN加速，如何搭建个人博客网站.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2b0a893bf12b0a1c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ef80cc24507266ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "hugo+github page+CDN加速，如何搭建个人博客网站.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "1c89a3edda95be42",
+  "lastOpenFiles": []
+}

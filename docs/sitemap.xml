@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
+    <loc>http://localhost:1313/posts/hugo&#43;github-page&#43;cdn%E5%8A%A0%E9%80%9F%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2025-02-04T23:16:06+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>

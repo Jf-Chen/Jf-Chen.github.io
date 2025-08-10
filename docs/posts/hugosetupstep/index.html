@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="标题\r参考\r为什么要从 Hexo 转到 Hugo？\n目标\rhugo+github page+CDN加速，搭建个人博客网站\ndeepseek提示词，选R1\r已经安装hugo，已经创建github page个人仓，已将github page仓下载到本地，如何hugo创建个人博客网站，已选择hugo-theme-stack作为主题。如何配置hugo.toml文件，github pages的url是https://jf-chen.github.io/\n步骤\r1、创建username.github.io\r建个仓就行，参考 https://docs.github.com/en/pages/quickstart ，Changing the title and description开始的步骤不必要，后面用hugo就行。 设置 GitHub Pages 源\n进入仓库的\u00a0Settings → Pages。 选择分支：main，目录：/docs。 2、配置该代码仓的git信息\r# 生成密钥对 ssh-keygen -t &lt;密钥类型&gt; -C &lt;注释信息&gt; -f &lt;密钥文件路径及名称&gt; # 读取公钥文件并复制到剪贴板，贴到github里面 Get-Content -Path &#34;C:\\path\\to\\your\\file.txt&#34; | Set-Clipboard # 修改.gitconfig;查看ssh连接失败原因;给username.github.io目录下的git仓另外配置 [core] sshCommand = &#34;ssh -v&#34; [includeIf &#34;gitdir:D:/GitHub/&#34;] path = D:/GitHub/.gitconfig-specific # .gitconfig-specific中指定私钥文件 [core] sshCommand = &#34;ssh -v -i D:/GitHub/ssh/id_ed_gitpage&#34; # 拷贝到本地 3、hugo本地部署\r# 强制在当前目录初始化 Hugo 项目 hugo new site . --force # 选择主题;换成gitcode的快一点 git submodule add https://gitcode.com/gh_mirrors/hu/hugo-theme-stack themes/hugo-theme-stack # 生成样例，随便写点 hugo new posts/first-post.md # 本地服务器 hugo server -D 修改hugo.toml\n">
-<title>First Post</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="参考\r为什么要从 Hexo 转到 Hugo？\n目标\rhugo+github page+CDN加速，搭建个人博客网站\ndeepseek提示词，选R1\r已经安装hugo，已经创建github page个人仓，已将github page仓下载到本地，如何hugo创建个人博客网站，已选择hugo-theme-stack作为主题。如何配置hugo.toml文件，github pages的url是https://jf-chen.github.io/\n步骤\r1、创建username.github.io\r建个仓就行，参考 https://docs.github.com/en/pages/quickstart ，Changing the title and description开始的步骤不必要，后面用hugo就行。 设置 GitHub Pages 源\n进入仓库的\u00a0Settings → Pages。 选择分支：main，目录：/docs。 2、配置该代码仓的git信息\r# 生成密钥对 ssh-keygen -t &lt;密钥类型&gt; -C &lt;注释信息&gt; -f &lt;密钥文件路径及名称&gt; # 读取公钥文件并复制到剪贴板，贴到github里面 Get-Content -Path &#34;C:\\path\\to\\your\\file.txt&#34; | Set-Clipboard # 修改.gitconfig;查看ssh连接失败原因;给username.github.io目录下的git仓另外配置 [core] sshCommand = &#34;ssh -v&#34; [includeIf &#34;gitdir:D:/GitHub/&#34;] path = D:/GitHub/.gitconfig-specific # .gitconfig-specific中指定私钥文件 [core] sshCommand = &#34;ssh -v -i D:/GitHub/ssh/id_ed_gitpage&#34; # 拷贝到本地 3、hugo本地部署\r# 强制在当前目录初始化 Hugo 项目 hugo new site . --force # 选择主题;换成gitcode的快一点 git submodule add https://gitcode.com/gh_mirrors/hu/hugo-theme-stack themes/hugo-theme-stack # 生成样例，随便写点 hugo new posts/first-post.md # 本地服务器 hugo server -D 修改hugo.toml\n">
+<title>hugo&#43;github page&#43;CDN加速，如何搭建个人博客网站</title>
 
-<link rel='canonical' href='http://localhost:1313/posts/first-post/'>
+<link rel='canonical' href='http://localhost:1313/posts/hugosetupstep/'>
 
-<link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="First Post">
-<meta property='og:description' content="标题\r参考\r为什么要从 Hexo 转到 Hugo？\n目标\rhugo+github page+CDN加速，搭建个人博客网站\ndeepseek提示词，选R1\r已经安装hugo，已经创建github page个人仓，已将github page仓下载到本地，如何hugo创建个人博客网站，已选择hugo-theme-stack作为主题。如何配置hugo.toml文件，github pages的url是https://jf-chen.github.io/\n步骤\r1、创建username.github.io\r建个仓就行，参考 https://docs.github.com/en/pages/quickstart ，Changing the title and description开始的步骤不必要，后面用hugo就行。 设置 GitHub Pages 源\n进入仓库的\u00a0Settings → Pages。 选择分支：main，目录：/docs。 2、配置该代码仓的git信息\r# 生成密钥对 ssh-keygen -t &lt;密钥类型&gt; -C &lt;注释信息&gt; -f &lt;密钥文件路径及名称&gt; # 读取公钥文件并复制到剪贴板，贴到github里面 Get-Content -Path &#34;C:\\path\\to\\your\\file.txt&#34; | Set-Clipboard # 修改.gitconfig;查看ssh连接失败原因;给username.github.io目录下的git仓另外配置 [core] sshCommand = &#34;ssh -v&#34; [includeIf &#34;gitdir:D:/GitHub/&#34;] path = D:/GitHub/.gitconfig-specific # .gitconfig-specific中指定私钥文件 [core] sshCommand = &#34;ssh -v -i D:/GitHub/ssh/id_ed_gitpage&#34; # 拷贝到本地 3、hugo本地部署\r# 强制在当前目录初始化 Hugo 项目 hugo new site . --force # 选择主题;换成gitcode的快一点 git submodule add https://gitcode.com/gh_mirrors/hu/hugo-theme-stack themes/hugo-theme-stack # 生成样例，随便写点 hugo new posts/first-post.md # 本地服务器 hugo server -D 修改hugo.toml\n">
-<meta property='og:url' content='http://localhost:1313/posts/first-post/'>
+<link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="hugo+github page+CDN加速，如何搭建个人博客网站">
+<meta property='og:description' content="参考\r为什么要从 Hexo 转到 Hugo？\n目标\rhugo+github page+CDN加速，搭建个人博客网站\ndeepseek提示词，选R1\r已经安装hugo，已经创建github page个人仓，已将github page仓下载到本地，如何hugo创建个人博客网站，已选择hugo-theme-stack作为主题。如何配置hugo.toml文件，github pages的url是https://jf-chen.github.io/\n步骤\r1、创建username.github.io\r建个仓就行，参考 https://docs.github.com/en/pages/quickstart ，Changing the title and description开始的步骤不必要，后面用hugo就行。 设置 GitHub Pages 源\n进入仓库的\u00a0Settings → Pages。 选择分支：main，目录：/docs。 2、配置该代码仓的git信息\r# 生成密钥对 ssh-keygen -t &lt;密钥类型&gt; -C &lt;注释信息&gt; -f &lt;密钥文件路径及名称&gt; # 读取公钥文件并复制到剪贴板，贴到github里面 Get-Content -Path &#34;C:\\path\\to\\your\\file.txt&#34; | Set-Clipboard # 修改.gitconfig;查看ssh连接失败原因;给username.github.io目录下的git仓另外配置 [core] sshCommand = &#34;ssh -v&#34; [includeIf &#34;gitdir:D:/GitHub/&#34;] path = D:/GitHub/.gitconfig-specific # .gitconfig-specific中指定私钥文件 [core] sshCommand = &#34;ssh -v -i D:/GitHub/ssh/id_ed_gitpage&#34; # 拷贝到本地 3、hugo本地部署\r# 强制在当前目录初始化 Hugo 项目 hugo new site . --force # 选择主题;换成gitcode的快一点 git submodule add https://gitcode.com/gh_mirrors/hu/hugo-theme-stack themes/hugo-theme-stack # 生成样例，随便写点 hugo new posts/first-post.md # 本地服务器 hugo server -D 修改hugo.toml\n">
+<meta property='og:url' content='http://localhost:1313/posts/hugosetupstep/'>
 <meta property='og:site_name' content='My New Hugo Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2025-02-04T23:16:06&#43;08:00'/><meta property='article:modified_time' content='2025-02-04T23:16:06&#43;08:00'/>
-<meta name="twitter:title" content="First Post">
-<meta name="twitter:description" content="标题\r参考\r为什么要从 Hexo 转到 Hugo？\n目标\rhugo+github page+CDN加速，搭建个人博客网站\ndeepseek提示词，选R1\r已经安装hugo，已经创建github page个人仓，已将github page仓下载到本地，如何hugo创建个人博客网站，已选择hugo-theme-stack作为主题。如何配置hugo.toml文件，github pages的url是https://jf-chen.github.io/\n步骤\r1、创建username.github.io\r建个仓就行，参考 https://docs.github.com/en/pages/quickstart ，Changing the title and description开始的步骤不必要，后面用hugo就行。 设置 GitHub Pages 源\n进入仓库的\u00a0Settings → Pages。 选择分支：main，目录：/docs。 2、配置该代码仓的git信息\r# 生成密钥对 ssh-keygen -t &lt;密钥类型&gt; -C &lt;注释信息&gt; -f &lt;密钥文件路径及名称&gt; # 读取公钥文件并复制到剪贴板，贴到github里面 Get-Content -Path &#34;C:\\path\\to\\your\\file.txt&#34; | Set-Clipboard # 修改.gitconfig;查看ssh连接失败原因;给username.github.io目录下的git仓另外配置 [core] sshCommand = &#34;ssh -v&#34; [includeIf &#34;gitdir:D:/GitHub/&#34;] path = D:/GitHub/.gitconfig-specific # .gitconfig-specific中指定私钥文件 [core] sshCommand = &#34;ssh -v -i D:/GitHub/ssh/id_ed_gitpage&#34; # 拷贝到本地 3、hugo本地部署\r# 强制在当前目录初始化 Hugo 项目 hugo new site . --force # 选择主题;换成gitcode的快一点 git submodule add https://gitcode.com/gh_mirrors/hu/hugo-theme-stack themes/hugo-theme-stack # 生成样例，随便写点 hugo new posts/first-post.md # 本地服务器 hugo server -D 修改hugo.toml\n">
+<meta name="twitter:title" content="hugo+github page+CDN加速，如何搭建个人博客网站">
+<meta name="twitter:description" content="参考\r为什么要从 Hexo 转到 Hugo？\n目标\rhugo+github page+CDN加速，搭建个人博客网站\ndeepseek提示词，选R1\r已经安装hugo，已经创建github page个人仓，已将github page仓下载到本地，如何hugo创建个人博客网站，已选择hugo-theme-stack作为主题。如何配置hugo.toml文件，github pages的url是https://jf-chen.github.io/\n步骤\r1、创建username.github.io\r建个仓就行，参考 https://docs.github.com/en/pages/quickstart ，Changing the title and description开始的步骤不必要，后面用hugo就行。 设置 GitHub Pages 源\n进入仓库的\u00a0Settings → Pages。 选择分支：main，目录：/docs。 2、配置该代码仓的git信息\r# 生成密钥对 ssh-keygen -t &lt;密钥类型&gt; -C &lt;注释信息&gt; -f &lt;密钥文件路径及名称&gt; # 读取公钥文件并复制到剪贴板，贴到github里面 Get-Content -Path &#34;C:\\path\\to\\your\\file.txt&#34; | Set-Clipboard # 修改.gitconfig;查看ssh连接失败原因;给username.github.io目录下的git仓另外配置 [core] sshCommand = &#34;ssh -v&#34; [includeIf &#34;gitdir:D:/GitHub/&#34;] path = D:/GitHub/.gitconfig-specific # .gitconfig-specific中指定私钥文件 [core] sshCommand = &#34;ssh -v -i D:/GitHub/ssh/id_ed_gitpage&#34; # 拷贝到本地 3、hugo本地部署\r# 强制在当前目录初始化 Hugo 项目 hugo new site . --force # 选择主题;换成gitcode的快一点 git submodule add https://gitcode.com/gh_mirrors/hu/hugo-theme-stack themes/hugo-theme-stack # 生成样例，随便写点 hugo new posts/first-post.md # 本地服务器 hugo server -D 修改hugo.toml\n">
     </head>
     <body class="
     article-page
@@ -143,7 +143,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/posts/first-post/">First Post</a>
+            <a href="/posts/hugosetupstep/">hugo&#43;github page&#43;CDN加速，如何搭建个人博客网站</a>
         </h2>
     
         
@@ -195,8 +195,7 @@
     <section class="article-content">
     
     
-    <h2 id="标题">标题
-</h2><h2 id="参考">参考
+    <h2 id="参考">参考
 </h2><p><a class="link" href="https://sdl.moe/post/why-hugo/"  target="_blank" rel="noopener"
     >为什么要从 Hexo 转到 Hugo？</a></p>
 <h2 id="目标">目标
@@ -259,7 +258,9 @@ publishDir = &#34;docs&#34;
     url = &#34;https://github.com/jf-chen&#34;
 </code></pre><p>修改之后再build一次，输入hugo就行</p>
 <h3 id="4使用-github-actions-自动构建和部署">4、使用 GitHub Actions 自动构建和部署
-</h3>
+</h3><p><a class="link" href="https://hugo.opendocs.io/hosting-and-deployment/hosting-on-github/"  target="_blank" rel="noopener"
+    >https://hugo.opendocs.io/hosting-and-deployment/hosting-on-github/</a></p>
+
 </section>
 
 
